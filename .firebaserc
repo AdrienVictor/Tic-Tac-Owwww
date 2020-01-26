@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tic-tac-oww": {
+      "hosting": {
+        "Tic-Tac-Owwww": [
+          "tic-tac-oww"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "tic-tac-oww": "tic-tac-oww"
+  }
+}
