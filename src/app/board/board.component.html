@@ -4,8 +4,10 @@
   Start a new game
 </button>
 
-<h2 *ngIf="winner !== 'tie' && winner !== null">Player {{ winner }} won!</h2>
-<h2 *ngIf="winner == 'tie'">It's a {{ winner }}!</h2>
+<h2 *ngIf="winner !== 'tie' && winner !== null">
+  Player {{ winner }} wins 👑 !
+</h2>
+<h2 *ngIf="winner == 'tie'">Owww it's a {{ winner }} 😿 !</h2>
 
 <main>
   <app-square
